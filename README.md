@@ -9,6 +9,7 @@ This page is to summarize important materials about *graph-based neural networks
   - This paper provide an overview of core ideas in GSP and their connection to conventional digital signal processing.
   - Signal processing is required to understand the convolution in the spectral domain.
 - Keywords : graph theory, spectral graph theory, discrete Fourier transform (DFT)
+- [A tutorial on Spectral Clustering](https://arxiv.org/abs/0711.0189) by Ulrike Von Luxeborg (Statistics and Computing 2007)
 
 ## List of Related Works
 - **Early works using graph structure**
@@ -46,6 +47,8 @@ This page is to summarize important materials about *graph-based neural networks
   - [Learning Shape Correspondence with Anisotropic Convolutional Neural Networks](https://arxiv.org/abs/1605.06437)
     - Davide Boscaini, Jonathan Masci, Emanuele Rodolà, Michael M. Bronstein, NIPS 2016
     - **Anisotropic CNN framework**
+  - [Diffusion-convolutional neural network](https://papers.nips.cc/paper/6212-diffusion-convolutional-neural-networks)
+    - James Atwood and Don Towsley, NIPS 2016
   - [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907), [[Code]](https://github.com/tkipf/gcn), [[Blog]](http://tkipf.github.io/graph-convolutional-networks/)
     - Thomas N. Kipf, Max Welling, ICLR 2017
     - **Graph Convolutional Networks (GCN) framework, a simplification of ChebNet**
@@ -55,6 +58,8 @@ This page is to summarize important materials about *graph-based neural networks
   - [Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks](https://arxiv.org/abs/1704.06803), [[Code]](https://github.com/fmonti/mgcnn)
     - Federico Monti, Michael M. Bronstein, Xavier Bresson, NIPS 2017
     - **Recommendation systems**
+  - [Fast GCN: Fast learning with graph convolutional Networks with Importance Sampling](https://arxiv.org/abs/1801.10247)
+    - Jie Chen, Tengfei Ma, Cao Xiao, ICLR 2018 (IBM Research)
   - [CayleyNets: Graph Convolutional Neural Networks with Complex Rational Spectral Filters](https://arxiv.org/abs/1705.07664)
     - Ron Levie, Federico Monti, Xavier Bresson, Michael M. Bronstein, arXiv 2017
     - **Spectral CNN with complex rational filters (CayleyNet)**
@@ -75,10 +80,13 @@ This page is to summarize important materials about *graph-based neural networks
     - Kristof T. Schütt, Pieter-Jan Kindermans, Huziel E. Sauceda, Stefan Chmiela, Alexandre Tkatchenko, Klaus-Robert Müller, NIPS 2017
   - [VAIN: Attentional Multi-agent Predictive Modeling](http://papers.nips.cc/paper/6863-vain-attentional-multi-agent-predictive-modeling)
     - Yedid Hoshen,  NIPS 2017
+  - [Inductive Representation Learning on Large Graphs](https://nips.cc/Conferences/2017/Schedule?showEvent=8896)
+    - William L. Hamilton, Rex Ying, Jure Leskovec, NIPS 2017
   - [Modeling Relational Data with Graph Convolutional Networks](https://arxiv.org/abs/1703.06103)
     - Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, Rianne van den Berg, Ivan Titov, Max Welling, arXiv 2017
   - [Graph Attention Networks](https://arxiv.org/abs/1710.10903), [[Code]](https://github.com/PetarV-/GAT)
     - Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, Yoshua Bengio, ICLR 2018
+
 
 - **Graph Auto-Encoder (GAE)**
   - [Variational Graph Auto-Encoders](https://arxiv.org/abs/1611.07308), [[Code]](https://github.com/tkipf/gae)
@@ -90,12 +98,24 @@ This page is to summarize important materials about *graph-based neural networks
     - Rianne van den Berg, Thomas N. Kipf, Max Welling, 2017
     
 - **Other Applications using Graph-based Neural Networks**
-  - [Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting
-](https://arxiv.org/abs/1707.01926), [[Code]](https://github.com/liyaguang/DCRNN)
+  - [Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting](https://arxiv.org/abs/1707.01926), [[Code]](https://github.com/liyaguang/DCRNN)
     - Yaguang Li, Rose Yu, Cyrus Shahabi, Yan Liu, ICLR 2018
   - [Automatically Inferring Data Quality for Spatiotemporal Forecasting](https://openreview.net/forum?id=ByJIWUnpW)
     - Sungyong Seo, Arash Mohegh, George Ban-Weiss, Yan Liu, ICLR 2018
 
+- **Some Recent Graph Kerenel Based Approaches**
+  - [Deep Graph Kernels](https://users.soe.ucsc.edu/~vishy/pubs/YanVis15.pdf) KDD 2015
+    - Pinar Yanardag, S.V.N. Viswanathan, KDD 2015 (University of California)
+    
+- **Miscallenous developements in graphs in completely orthogonal Directions**
+  - [Graphs, mergeons and so on](https://papers.nips.cc/paper/6089-graphons-mergeons-and-so-on.pdf)
+    - Justin Eldridge, Mikhail Belkin, Yusu Wang, NIPS 2016 (Ohio State University)
+  - [Hunt for the Unique, Stable Sparse and Fast Feature Learning on Graphs](https://papers.nips.cc/paper/6614-hunt-for-the-unique-stable-sparse-and-fast-feature-learning-on-graphs.pdf)
+    - S. Verma and Zhi-Li Zhang, NIPS 2017 (University of Minnesota)
+  - [Wavelets on Graphs via Spectral Graph Theory Applied and Computational Harmonic Analysis](https://arxiv.org/abs/0912.3848)
+    - D. Hammond, P. Vandergheynst, and R. Gribonval.,  Applied and Computational Harmonic Analysis 2009
+
+  
 ## Tutorials or Workshops
 - IPAM18 Workshop, [New Deep Learning Techniques](http://www.ipam.ucla.edu/programs/workshops/new-deep-learning-techniques/)
 - NIPS17 Tutorial, [Geometric Deep Learning on Graphs and Manifolds](https://nips.cc/Conferences/2017/Schedule?showEvent=8735)
