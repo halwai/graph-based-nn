@@ -9,7 +9,7 @@ This page is to summarize important materials about *graph-based neural networks
   - This paper provide an overview of core ideas in GSP and their connection to conventional digital signal processing.
   - Signal processing is required to understand the convolution in the spectral domain.
 - Keywords : graph theory, spectral graph theory, discrete Fourier transform (DFT)
-- [A tutorial on Spectral Clustering](https://arxiv.org/abs/0711.0189) by Ulrike Von Luxeborg (Statistics and Computing 2007)
+- ~~ [A tutorial on Spectral Clustering](https://arxiv.org/abs/0711.0189) ~~ by Ulrike Von Luxeborg (Statistics and Computing 2007) 
 
 ## List of Related Works
 - **Early works using graph structure**
@@ -33,15 +33,15 @@ This page is to summarize important materials about *graph-based neural networks
     - **Spatial localization of smooth filters in the frequency domain**
   - [Convolutional Networks on Graphs for Learning Molecular Fingerprints](http://papers.nips.cc/paper/5954-convolutional-networks-on-graphs-for-learning-molecular-fingerprints)
     - David Duvenaud, Dougal Maclaurin, Jorge Iparraguirre, Rafael Bombarell, Timothy Hirzel, Alan Aspuru-Guzik, Ryan P. Adams, NIPS 2015
-  - [Gated Graph Sequence Neural Networks](https://arxiv.org/abs/1511.05493)
+  - ~~ [Gated Graph Sequence Neural Networks](https://arxiv.org/abs/1511.05493) ~~
     - Yujia Li, Daniel Tarlow, Marc Brockschmidt, Richard Zemel, ICLR 2016
     - **Sliding a filter on the vertices as conventional CNNs, not spectral filtering**
-  - [Learning Convolutional Neural Networks for Graphs](https://arxiv.org/abs/1605.05273)
+  - ~~ [Learning Convolutional Neural Networks for Graphs](https://arxiv.org/abs/1605.05273) ~~
     - Mathias Niepert, Mohamed Ahmed, Konstantin Kutzkov, ICML 2016
   - [Generalizing the Convolution Operator to extend CNNs to Irregular Domains](https://arxiv.org/abs/1606.01166)
     - Jean-Charles Vialatte, Vincent Gripon, Grégoire Mercier, arXiv 2016
     - **Generalize CNNs to irregular domains using weight sharing and graph-based operators**
-  - [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](https://arxiv.org/abs/1606.09375), [[PyTorch Code]](https://github.com/xbresson/graph_convnets_pytorch/blob/master/README.md) [[TF Code]](https://github.com/mdeff/cnn_graph)
+  - ~~ [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](https://arxiv.org/abs/1606.09375) ~~ , [[PyTorch Code]](https://github.com/xbresson/graph_convnets_pytorch/blob/master/README.md) [[TF Code]](https://github.com/mdeff/cnn_graph)
     - Michaël Defferrard, Xavier Bresson, Pierre Vandergheynst, NIPS 2016
     - **Spectral CNN with Chebychev polynomial filters (ChebNet)**
   - [Learning Shape Correspondence with Anisotropic Convolutional Neural Networks](https://arxiv.org/abs/1605.06437)
@@ -49,7 +49,7 @@ This page is to summarize important materials about *graph-based neural networks
     - **Anisotropic CNN framework**
   - [Diffusion-convolutional neural network](https://papers.nips.cc/paper/6212-diffusion-convolutional-neural-networks)
     - James Atwood and Don Towsley, NIPS 2016
-  - [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907), [[Code]](https://github.com/tkipf/gcn), [[Blog]](http://tkipf.github.io/graph-convolutional-networks/)
+  - ~~ [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907)~~ , [[Code]](https://github.com/tkipf/gcn), [[Blog]](http://tkipf.github.io/graph-convolutional-networks/)
     - Thomas N. Kipf, Max Welling, ICLR 2017
     - **Graph Convolutional Networks (GCN) framework, a simplification of ChebNet**
   - [Geometric Deep Learning on Graphs and Manifolds using Mixture Model CNNs](https://arxiv.org/abs/1611.08402)
@@ -80,11 +80,11 @@ This page is to summarize important materials about *graph-based neural networks
     - Kristof T. Schütt, Pieter-Jan Kindermans, Huziel E. Sauceda, Stefan Chmiela, Alexandre Tkatchenko, Klaus-Robert Müller, NIPS 2017
   - [VAIN: Attentional Multi-agent Predictive Modeling](http://papers.nips.cc/paper/6863-vain-attentional-multi-agent-predictive-modeling)
     - Yedid Hoshen,  NIPS 2017
-  - [Inductive Representation Learning on Large Graphs](https://nips.cc/Conferences/2017/Schedule?showEvent=8896)
+  - ~~ [Inductive Representation Learning on Large Graphs](https://nips.cc/Conferences/2017/Schedule?showEvent=8896) ~~
     - William L. Hamilton, Rex Ying, Jure Leskovec, NIPS 2017
   - [Modeling Relational Data with Graph Convolutional Networks](https://arxiv.org/abs/1703.06103)
     - Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, Rianne van den Berg, Ivan Titov, Max Welling, arXiv 2017
-  - [Graph Attention Networks](https://arxiv.org/abs/1710.10903), [[Code]](https://github.com/PetarV-/GAT)
+  - ~~ [Graph Attention Networks](https://arxiv.org/abs/1710.10903) ~~ , [[Code]](https://github.com/PetarV-/GAT) 
     - Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, Yoshua Bengio, ICLR 2018
 
 
